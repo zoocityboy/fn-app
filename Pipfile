@@ -7,8 +7,6 @@ name = "pypi"
 flask = "*"
 marshmallow = "*"
 requests = "*"
-pocketbase = "*"
-getenv = "*"
 gevent = "*"
 
 [dev-packages]
