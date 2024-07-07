@@ -8,6 +8,6 @@ services:
     ports:
       - 5000
     environment:
-      - FLASK_API_KEY=$$secret__app_api_key
+      - FLASK_API_KEY=${FN_APP_API_KEY}
     volumes:
       - .:/app:ro
