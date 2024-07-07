@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  fn-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8085:5000"
+    environment:
+      - FLASK_API_KEY=secretvalue
+    volumes:
+      - .:/app:ro
