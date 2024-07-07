@@ -12,3 +12,4 @@ services:
     volumes:
       - .:/app:ro
     privileged: true
+    restart: unless-stopped
